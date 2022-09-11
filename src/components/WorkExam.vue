@@ -1,14 +1,25 @@
 <script setup>
+import { stringify } from 'postcss';
+
 defineProps({
   msg: {
     type: String,
     required: true
+  },
+  obr:{
+    type: String,
+    required: true
   }
+
 })
 </script>
     
 <template>
 <div class="examp">
+    <a href="https://github.com/adurcans/Brilo">
+    <img alt="Image" :src="'images/' + obr" width="200" height="150">
+    </a>
+
     <h1>{{ msg }}</h1>
 </div>
 </template>
@@ -16,7 +27,7 @@ defineProps({
     <style scoped>
     h1 {
       font-weight: 500;
-      font-size: 2.6rem;
+      font-size: 1rem;
       top: -10px;
     }
     
@@ -33,7 +44,7 @@ defineProps({
         font-style: initial;
         background-color: orange;
         width: 200px;
-        height:250px;
+        height:210px;
     }
     .examp:hover {
         transform: translate3d(0px, -20px, 0px);

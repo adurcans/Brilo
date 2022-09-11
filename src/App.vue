@@ -2,18 +2,23 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import WorkExam from './components/WorkExam.vue';
+import PageHeader from './components/PageHeader.vue';
 </script>
 
 <template>
+<PageHeader />
+
+
 <div class="container">
+  <h2>WHAT I DID</h2>
   <div>
-    <WorkExam msg="První příklad práce" />
+    <WorkExam msg="Company website refactoring" obr="4.jpeg" />
   </div>
   <div>
-    <WorkExam msg="Druhý příklad práce" />
+    <WorkExam msg="Single-page application" obr="1.jpeg"/>
   </div>
   <div>
-    <WorkExam msg="Třetí příklad práce" />
+    <WorkExam msg="Application Programming Interface" obr="2.jpeg" />
   </div>
 </div>
 
@@ -32,8 +37,7 @@ header {
   width:665px;
   height:300px;
   position: fixed;
-  left: 50%;
-  top: 70%;
+  top: 75%;
   transform: translate(-50%, -50%);
 }
 
