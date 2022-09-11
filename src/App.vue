@@ -1,25 +1,40 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import WorkExam from './components/WorkExam.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+<div class="container">
+  <div>
+    <WorkExam msg="První příklad práce" />
+  </div>
+  <div>
+    <WorkExam msg="Druhý příklad práce" />
+  </div>
+  <div>
+    <WorkExam msg="Třetí příklad práce" />
+  </div>
+</div>
 
-    <div class="wrapper">
-      <HelloWorld msg="Jsi dobrý člověče" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+.container{
+  overflow:auto;
+  display:table;
+  margin:25px;
+  border:1px solid white;
+  width:665px;
+  height:300px;
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
 }
 
 .logo {
