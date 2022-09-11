@@ -1,2 +1,0 @@
-# Brilo
-Frontend project
