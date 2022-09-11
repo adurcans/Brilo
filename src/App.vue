@@ -1,25 +1,44 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import WorkExam from './components/WorkExam.vue';
+import PageHeader from './components/PageHeader.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+<PageHeader />
 
-    <div class="wrapper">
-      <HelloWorld msg="Jsi dobrý člověče" />
-    </div>
-  </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+<div class="container">
+  <h2>WHAT I DID</h2>
+  <div>
+    <WorkExam msg="Company website refactoring" obr="4.jpeg" />
+  </div>
+  <div>
+    <WorkExam msg="Single-page application" obr="1.jpeg"/>
+  </div>
+  <div>
+    <WorkExam msg="Application Programming Interface" obr="2.jpeg" />
+  </div>
+</div>
+
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+
+.container{
+  overflow:auto;
+  display:table;
+  margin:25px;
+  border:1px solid white;
+  width:665px;
+  height:300px;
+  position: fixed;
+  top: 75%;
+  transform: translate(-50%, -50%);
 }
 
 .logo {
