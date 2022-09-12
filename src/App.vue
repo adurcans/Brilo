@@ -15,7 +15,7 @@ import PageHeader from './components/PageHeader.vue';
     <WorkExam msg="Company website refactoring" obr="4.jpeg" />
   </div>
   <div>
-    <WorkExam msg="Single-page application" obr="1.jpeg"/>
+    <WorkExam msg="Custom single-page application" obr="1.jpeg"/>
   </div>
   <div>
     <WorkExam msg="Application Programming Interface" obr="2.jpeg" />
