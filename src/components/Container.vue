@@ -1,14 +1,12 @@
 <template>
     <div class="cont">
-        <a href="https://github.com/adurcans/Brilo">
         <img alt="Image" src="images/9.jpeg" width="180" height="250">
-        </a>
         <h1>Aleš Ďurčanský</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>Nulla pellentesque enim at semper eleifend. Nunc sit amet volutpat turpis.</p>
-        <p>Integer gravida lacus eget ante tincidunt, at facilisis nisi gravida.</p> 
-        <p>Donec facilisis mattis auctor. Vestibulum ante ipsum primis in faucibus orci</p>
-        <p>luctus et ultrices posuere cubilia curae.</p>
+        <p>Integer gravida lacus eget ante tincidunt, at facilisis nisi et gravida.</p> 
+        <p>Donec facilisis mattis auctor. Vestibulum ante ipsum primis in faucibus orci.</p>
+        <a href="#home" target="_blank">Learn more</a>
         
     </div>
 
@@ -30,6 +28,19 @@
 
 .cont img{
     float: right;
+}
+
+a:link, a:visited {
+  background-color: orange;
+  color: white;
+  margin:3%;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: grey;
 }
 
 .textField{

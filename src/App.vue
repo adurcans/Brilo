@@ -1,6 +1,4 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import WorkExam from './components/WorkExam.vue';
 import PageHeader from './components/PageHeader.vue';
 import Container from './components/Container.vue';
