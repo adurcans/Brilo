@@ -29,6 +29,7 @@ defineProps({
       font-weight: 500;
       font-size: 1rem;
       top: -10px;
+      text-align: center;
     }
     
     h3 {
@@ -48,6 +49,7 @@ defineProps({
     }
     .examp:hover {
         transform: translate3d(0px, -20px, 0px);
+        background-color: grey;
 }
    
     
