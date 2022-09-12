@@ -48,7 +48,7 @@ defineProps({
         height:210px;
     }
     .examp:hover {
-        transform: translate3d(0px, -20px, 0px);
+        transform: translate3d(0px, -10px, 0px);
         background-color: grey;
 }
    
