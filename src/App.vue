@@ -3,10 +3,13 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import WorkExam from './components/WorkExam.vue';
 import PageHeader from './components/PageHeader.vue';
+import Container from './components/Container.vue';
 </script>
 
 <template>
 <PageHeader />
+
+<Container />
 
 
 <div class="container">
@@ -20,6 +23,7 @@ import PageHeader from './components/PageHeader.vue';
   <div>
     <WorkExam msg="Application Programming Interface" obr="2.jpeg" />
   </div>
+ 
 </div>
 
 </template>
@@ -33,13 +37,13 @@ header {
   overflow:auto;
   display:table;
   margin:25px;
-  border:1px solid white;
   width:665px;
   height:300px;
   position: fixed;
   top: 75%;
   transform: translate(-50%, -50%);
 }
+
 
 .logo {
   display: block;
