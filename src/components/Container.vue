@@ -4,7 +4,7 @@
         <h1>Aleš Ďurčanský</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p>Nulla pellentesque enim at semper eleifend. Nunc sit amet volutpat turpis.</p>
-        <p>Integer gravida lacus eget ante tincidunt, at facilisis nisi gravida.</p> 
+        <p>Integer gravida lacus eget ante tincidunt, at facilisis nisi et gravida.</p> 
         <p>Donec facilisis mattis auctor. Vestibulum ante ipsum primis in faucibus orci.</p>
         <a href="#home" target="_blank">Learn more</a>
         
